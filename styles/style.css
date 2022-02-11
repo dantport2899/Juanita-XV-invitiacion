@@ -40,7 +40,7 @@ body{
     margin-right: 5%;
     padding-top: 10px;
     text-align: center;
-    z-index: 1000;
+    z-index: 100;
 
     background-color: rgba(219,211,198,255);
     color: black;
@@ -75,6 +75,26 @@ body{
     line-height: 70px;
 }
 
+#rosas1,#rosas2,#rosas3{
+    position: fixed;
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 90px;
+    z-index: 101;
+}
+
+#rosas2{
+    top: 8px;
+    left: 5%;
+}
+
+#rosas3{
+    top: 8px;
+    left: 93%;
+    transform: scaleX(-1);
+}
+
 #invitacion{
     margin-top: 60px;
 
@@ -83,4 +103,11 @@ body{
     height: 700px;
     opacity: 0.88;
     border-radius: 20px;
+}
+
+#invitacion h3{
+    padding-top: 40px;
+    margin: auto;
+    width: 70%;
+    font-size: 35px;
 }
