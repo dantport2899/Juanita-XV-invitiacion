@@ -1,10 +1,86 @@
+@font-face{
+    font-family: "Festive";
+    src:url("fonts/Festive/Festive-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
 *{
     padding: 0px;
     margin: 0px;
     text-decoration: none;
+    list-style: none;
 }
 
 body{
-    background-image: url('../src/peakpx.jpg');
-    background-position: static;
+    background-color: rgba(219,211,198,255);
+    background-image: url('../src/fondo.jpg');
+    background-repeat: no-repeat;
+}
+
+#container{
+    margin: auto;
+    padding: 80px;
+    width: 60%;
+    height: 100vh;
+    text-align: center;
+
+}
+
+#header{
+    display: flex;
+    position: fixed;
+    flex-grow: wrap;
+    flex-direction: row;
+    width: 90%;
+    height: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 10px;
+    text-align: center;
+    z-index: 1000;
+
+    background-color: rgba(219,211,198,255);
+    color: black;
+    border-radius: 20px;
+}
+
+#header h1{
+    font-family: "Festive";
+    font-size: 50px;
+    width: 40%;
+    line-height: 70px;
+}
+
+#header ul{
+    display: flex;
+    flex-grow: wrap;
+    flex-direction: row;
+    justify-content: right;
+    width: 60%;
+    margin-right: 25px;
+}
+
+#header li{
+    margin-right: 40px;
+}
+
+#header li a{
+    font-family: "Festive";
+    color: black;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 70px;
+}
+
+#invitacion{
+    margin-top: 60px;
+
+    background-color: black;
+    color: white;
+    height: 700px;
+    opacity: 0.88;
+    border-radius: 20px;
 }
