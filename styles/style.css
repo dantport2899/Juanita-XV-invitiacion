@@ -181,3 +181,53 @@ body{
     background-color: #efb810;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+#ubicacion h2{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #efb810;
+}
+
+#cartas{
+    display: flex;
+    flex-grow: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+.carta{
+    width: 46%;
+}
+
+.carta h3{
+    background-color: gray;
+    color: #efb810;
+    font-size: 30px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+iframe{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#footer{
+    margin-top: 40px;
+    background-color: black;
+    color: #efb810;
+    height: 50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    opacity: 0.85;
+}
+
+#footer h3{
+    line-height: 50px;
+}

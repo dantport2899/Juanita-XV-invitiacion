@@ -13,6 +13,21 @@ window.addEventListener('load', () => {  //al hacer esto ya no es necesario carg
             return false; 
         }); 
 
+        $('#scrollBottom2').click(function(){ 
+            $("html, body").animate({ scrollTop: 9999 }, 1000); 
+            return false; 
+        }); 
+
+        $('#scrollBottom3').click(function(){ 
+            $("html, body").animate({ scrollTop: 9999 }, 1000); 
+            return false; 
+        }); 
+
+        $('#scrollBottom4').click(function(){ 
+            $("html, body").animate({ scrollTop: 9999 }, 1000); 
+            return false; 
+        }); 
+
     });
 
  });
