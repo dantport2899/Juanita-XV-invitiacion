@@ -8,6 +8,7 @@
     <title>Juanita XV años</title>
     <link rel="icon" type="favicon/x-icon" href="src/rosas1.png">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/responsive.css">
     <script src="js/fun.js" type='text/javascript'></script>
 </head>
 
@@ -16,7 +17,7 @@
         <h1>Jaunita Bordallo XV</h1>
         <ul>
             <li><a href="javascript:void(0);" id="scroll" >Invitacion</a></li>
-            <li><a href="#conf-asitencia">Asistencia</a></li>
+            <li><a href="javascript:void(0);" id="scrollasistencia">Asistencia</a></li>
             <li><a href="javascript:void(0);" id="scrollBottom">Lugar</a></li>
         </ul>
     </header>
@@ -83,13 +84,17 @@
 
         <section id="asistencia">
             <div id="encabezado">
-            
+                <h3>Confirmacion de asistencia</h3>
+                <p>Esto solo es con el objetivo de tener un aproximada de los invitados que nos acompañaran</p>
             </div>
             <div id="form">
                 <form action="">
-
+                    <input id="name" name="name" type="text" placeholder="Ingresa tu nombre" required>
+                    <input id="number" name="number" type="number" placeholder="Ingresa el numero de asistentes" required>
+                    <input id="btn-confirm" type="submit" value="Confirmar">
                 </form>
             </div>
+            <a href="javascript:void(0);" id="scrollBottom5">Conocer Direccion</a>
         </section>
 
         <section id="ubicacion">

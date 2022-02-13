@@ -7,24 +7,34 @@ window.addEventListener('load', () => {  //al hacer esto ya no es necesario carg
             $("html, body").animate({ scrollTop: 0 }, 1000); 
             return false; 
         });
+
+        $('#scrollasistencia').click(function(){ 
+            $("html, body").animate({ scrollTop: 900 }, 1000); 
+            return false; 
+        });
         
         $('#scrollBottom').click(function(){ 
-            $("html, body").animate({ scrollTop: 9999 }, 1000); 
+            $("html, body").animate({ scrollTop: 1680 }, 1000); 
             return false; 
         }); 
 
         $('#scrollBottom2').click(function(){ 
-            $("html, body").animate({ scrollTop: 9999 }, 1000); 
+            $("html, body").animate({ scrollTop: 1680 }, 1000); 
             return false; 
         }); 
 
         $('#scrollBottom3').click(function(){ 
-            $("html, body").animate({ scrollTop: 9999 }, 1000); 
+            $("html, body").animate({ scrollTop: 1680 }, 1000); 
             return false; 
         }); 
 
         $('#scrollBottom4').click(function(){ 
-            $("html, body").animate({ scrollTop: 9999 }, 1000); 
+            $("html, body").animate({ scrollTop: 1680 }, 1000); 
+            return false; 
+        }); 
+
+        $('#scrollBottom5').click(function(){ 
+            $("html, body").animate({ scrollTop: 1680 }, 1000); 
             return false; 
         }); 
 
