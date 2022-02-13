@@ -12,6 +12,11 @@ window.addEventListener('load', () => {  //al hacer esto ya no es necesario carg
             $("html, body").animate({ scrollTop: 900 }, 1000); 
             return false; 
         });
+
+        $('#scrollasistencia2').click(function(){ 
+            $("html, body").animate({ scrollTop: 900 }, 1000); 
+            return false; 
+        });
         
         $('#scrollBottom').click(function(){ 
             $("html, body").animate({ scrollTop: 1680 }, 1000); 
