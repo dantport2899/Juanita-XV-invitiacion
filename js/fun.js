@@ -1,7 +1,10 @@
 'use strict'
 window.addEventListener('load', () => {  //al hacer esto ya no es necesario cargar el script al final del html
 
+
+
     $(document).ready(function(){ 
+
          
         $('#scroll').click(function(){ 
             $("html, body").animate({ scrollTop: 0 }, 1000); 
@@ -48,9 +51,3 @@ window.addEventListener('load', () => {  //al hacer esto ya no es necesario carg
     });
 
  });
-
- function centrar(){ 
-     var centro = window.innerWidth/2;
-    $("html, body").animate({ screenLeft: centro }, 1000); 
-    return false; 
-}
