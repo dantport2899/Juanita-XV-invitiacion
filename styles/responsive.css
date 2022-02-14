@@ -254,3 +254,27 @@
         margin-right: 10px;
     }
 }
+
+@media(max-width:350px) {
+    #container{
+        padding: 20px;
+        padding-bottom: 0px;
+    }
+
+    #header li{
+        margin-right: 8px;
+    }
+
+    #header li a{
+        font-size: 12px;
+
+    }
+
+    #datos2{
+        width: 260px;
+    }
+
+    .dato{
+        padding-top: 3px;
+    }
+}

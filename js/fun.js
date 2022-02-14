@@ -43,6 +43,14 @@ window.addEventListener('load', () => {  //al hacer esto ya no es necesario carg
             return false; 
         }); 
 
+
+        
     });
 
  });
+
+ function centrar(){ 
+     var centro = window.innerWidth/2;
+    $("html, body").animate({ screenLeft: centro }, 1000); 
+    return false; 
+}
